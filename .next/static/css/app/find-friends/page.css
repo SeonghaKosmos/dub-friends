@@ -1,0 +1,228 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/find-friends/header.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.find-friends-h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.display-option-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.display-option-button{
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 21px;
+    font-size: 15px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* font-size: 15px; */
+    background-color: #E2D1B0;
+
+}
+
+.display-option-chevron{
+    width: 15px;
+    height: 15px;
+}
+
+
+/* .dropdown{
+    background-color: #E2D1B0;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-open{
+    font-size: 16px;
+    height: 100px;
+    transition: 0.5s ease-in;
+}
+
+.dropdown-closed{
+    font-size: 16px;
+    height: 48px;
+    transition: 0.5s ease-in;
+} */
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/header.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.thick-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    max-height: 65px;
+
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99999;
+
+    background-color: #F8F8F8;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/find-friends/thumbnail.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-tag {
+    font-family: 'Inter', sans-serif;
+    font-size: 18.08px;
+    width: 100%;
+}
+
+.interests-container{
+    gap: 10px;
+    width: 100%;
+}
+
+.thumbnail-body{
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    padding: 15px;
+}
+
+.thumbnail-info{
+    gap: 10px;
+    flex-grow: 1;
+}
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/profile-pic.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.profile-pic{
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    min-width: 4.75rem;
+    min-height: 4.75rem;
+    background-color: #D9D9D9;
+}
+
+.profile-pic-large{
+    width: 162px;
+    height: 162px;
+}
+
+.profile-pic-small{
+    width: 4.75rem;
+    height: 4.75rem;
+}
+
+.profile-pic-super-small{
+    width: 53px;
+    height: 53px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/interest-tag.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.interest-tag{
+    background-color: #E2D1B0;
+    font-size: 8px;
+}
+
+.interest-icon{
+    height: 13px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/tag.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    border-radius: 21px;
+    height: 1.5rem;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/descriptive-word-tag.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.descriptive-word-tag{
+    background-color: #C5B3E6;
+    font-size: 10px;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/nav-bar/nav-link.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.nav-bar-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    color: #7626AB;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.find-friends-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.find-friends-span{
+    height: 16px;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/nav-bar/nav-bar.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+    /* padding: 40px, 0px, 40px, 0px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F8F8F8;
+
+    position: fixed;
+    width: 100%;
+    top: 100vh;
+    transform: translateY(-100%);
+
+    z-index: 99999;
+}
+
+

@@ -1,0 +1,215 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/messages/header.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.chat-header{
+    height: 65px;
+    width: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+
+    background-color: #F8F8F8;
+}
+
+.centerer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.map-icon{
+    width: 41px;
+    height: 41px;
+    z-index: 99999;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/messages/page.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.chat-main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chats{
+    flex-grow: 1;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 10px;
+
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/divider-line.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.divider-line{
+   stroke: 1px #D9D9D9;
+   width: 100vw;
+   position: fixed;
+
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/nav-bar/nav-link.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.nav-bar-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    color: #7626AB;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.find-friends-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.find-friends-span{
+    height: 16px;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/nav-bar/nav-bar.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+    /* padding: 40px, 0px, 40px, 0px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F8F8F8;
+
+    position: fixed;
+    width: 100%;
+    top: 100vh;
+    transform: translateY(-100%);
+
+    z-index: 99999;
+}
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/profile-pic.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.profile-pic{
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    min-width: 4.75rem;
+    min-height: 4.75rem;
+    background-color: #D9D9D9;
+}
+
+.profile-pic-large{
+    width: 162px;
+    height: 162px;
+}
+
+.profile-pic-small{
+    width: 4.75rem;
+    height: 4.75rem;
+}
+
+.profile-pic-super-small{
+    width: 53px;
+    height: 53px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/messages/word-bubble.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.bubble{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bubble-container{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+.my-bubble-container{
+
+    flex-direction: row-reverse;
+
+}
+
+.partners-bubble-container{
+
+    flex-direction: row;
+
+
+}
+
+.my-bubble{
+    background-color: #C592E8;
+}
+
+.partners-bubble{
+    background-color: #D9D9D9;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/messages/text-field.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.input-complex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.text-field{
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    width: 309px;
+    height: 45px;
+}
+
+input::-webkit-input-placeholder{
+    color: #8B8484;
+    padding-left: 10px;
+    font-weight: 600;
+}
