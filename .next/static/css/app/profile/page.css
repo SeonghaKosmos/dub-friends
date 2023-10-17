@@ -1,106 +1,35 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/header.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/tag.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************/
-.profile-header{
+.tag{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-
-    position: fixed;
-    left: 0px;
-    top: 0px;
-}
-
-.back-button{
-    display: flex;
-    flex-direction: row;
-}
-/*!******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/page.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************/
-
-
-.main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: 'center';
     align-items: center;
-    width: 100vw;
-    overflow: scroll;
-}
-
-.profile-main{
-    width: 80%;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-
-.fact-label-container{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    row-gap: 0px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    border-radius: 21px;
+    height: 1.5rem;
 }
-
-
-.profile-h1{
-    font-size: 30px;
-}
-
-.profile-h2{
-    width: 100%;
-    font-weight: 600;
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/descriptive-word-tag.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.descriptive-word-tag{
+    background-color: #C5B3E6;
     font-size: 10px;
 }
-
-/*!************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/fact-label.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************/
-.fact-label{
-    color: #5B5858;
-    font-weight: 600;
-    font-size: 10px;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/interest-tag.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.interest-tag{
+    background-color: #E2D1B0;
+    font-size: 8px;
 }
 
-.fact{
-    color: #5B5858;
-    font-size: 10px;
-}
-
-.fact-pair{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/tag-box.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************/
-.tag-box{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 15px;
-    width: 100%;
-}
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/text-box.css ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
-.text-box{
-    background-color: #F8F8F8;
-    border-radius: 6px;
-    padding: 10px;
+.interest-icon{
+    height: 13px;
 }
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/profile-pic.css ***!
@@ -175,43 +104,113 @@
 
     position: fixed;
     width: 100%;
-    top: 100vh;
-    transform: translateY(-100%);
+    bottom: 0px;
 
     z-index: 99999;
 }
 
 
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/tag.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-.tag{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-
-    border-radius: 21px;
-    height: 1.5rem;
-}
-/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/descriptive-word-tag.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************/
-.descriptive-word-tag{
-    background-color: #C5B3E6;
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/fact-label.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.fact-label{
+    color: #5B5858;
+    font-weight: 600;
     font-size: 10px;
 }
-/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/components/interest-tag.css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************/
-.interest-tag{
-    background-color: #E2D1B0;
-    font-size: 8px;
+
+.fact{
+    color: #5B5858;
+    font-size: 10px;
 }
 
-.interest-icon{
-    height: 13px;
+.fact-pair{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/header.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.back-button{
+    display: flex;
+    flex-direction: row;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/tag-box.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.tag-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/text-box.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.text-box{
+    background-color: #F8F8F8;
+    border-radius: 6px;
+    padding: 10px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/profile/page.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: 'center';
+    align-items: center;
+    width: 100vw;
+    overflow: scroll;
+}
+
+.profile-main{
+    width: 80%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.fact-label-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    row-gap: 0px;
+}
+
+
+.profile-h1{
+    font-size: 30px;
+}
+
+.profile-h2{
+    width: 100%;
+    font-weight: 600;
+    font-size: 10px;
+}
+
